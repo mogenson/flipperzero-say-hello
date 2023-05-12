@@ -1,0 +1,9 @@
+App(
+    appid="Hello",
+    name="Say Hello",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hello_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Demo",
+)
